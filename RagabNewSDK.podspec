@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = ['4.0', '5.0', '5.1', '5.2']
-  s.source_files = 'RagabNewSDK/**/*.{Swift}'
+  s.source_files = 'Sources/RagabNewSDK/**/*.{Swift}'
   
   # s.resource_bundles = {
   #   'RagabNewSDK' => ['RagabNewSDK/Assets/*.png']

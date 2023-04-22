@@ -68,10 +68,10 @@
 		A569263468CC42BFD6A6671D398BA777 /* Pods-RagabNewSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RagabNewSDK_Tests"; path = Pods_RagabNewSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A768B26A7EA16E1F252B3BC88A259703 /* Pods-RagabNewSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5D911479579210C04C91BCB353AA73D /* Pods-RagabNewSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RagabNewSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		D800519129F4621100F0A84E /* RagabSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RagabSDK.swift; path = RagabNewSDK/Classes/RagabSDK.swift; sourceTree = "<group>"; };
+		D800519129F4621100F0A84E /* RagabSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RagabSDK.swift; path = Sources/RagabNewSDK/Classes/RagabSDK.swift; sourceTree = "<group>"; };
 		E6AA51DFCC29011413F307948E38A948 /* Pods-RagabNewSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA305610C5FA499ED11F02E011FA9921 /* RagabNewSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RagabNewSDK.debug.xcconfig; sourceTree = "<group>"; };
-		F59C16AE0DE338908A8CE35D16C4976E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RagabNewSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F59C16AE0DE338908A8CE35D16C4976E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Sources/RagabNewSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
