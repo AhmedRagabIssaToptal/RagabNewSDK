@@ -1,0 +1,6 @@
+framework module RagabNewSDK {
+  umbrella header "RagabNewSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

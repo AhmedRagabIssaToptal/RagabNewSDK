@@ -1,0 +1,16 @@
+PODS:
+  - RagabNewSDK (0.1.0)
+
+DEPENDENCIES:
+  - RagabNewSDK (from `../`)
+
+EXTERNAL SOURCES:
+  RagabNewSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RagabNewSDK: 5d1fd802609fa1faf7252b8925faa308fd8ed2e4
+
+PODFILE CHECKSUM: 3cea83f58783ad2b5530ffeef49540a1b3d30120
+
+COCOAPODS: 1.11.3

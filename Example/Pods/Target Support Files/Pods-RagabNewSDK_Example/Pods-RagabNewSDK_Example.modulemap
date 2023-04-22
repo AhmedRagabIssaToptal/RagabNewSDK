@@ -1,0 +1,6 @@
+framework module Pods_RagabNewSDK_Example {
+  umbrella header "Pods-RagabNewSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
