@@ -16,6 +16,7 @@
 		C0283EF5E04E35FC4B7E76F2DCC27BC8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C16AE0DE338908A8CE35D16C4976E /* ReplaceMe.swift */; };
 		CAF7A7BAC1D1094A2B5D49444694C8D6 /* Pods-RagabNewSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8327959A5630FCF341ACFA5E343089 /* Pods-RagabNewSDK_Example-dummy.m */; };
 		CBA9F7A37EAE7411104F721A62AEFF11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D800519229F4621100F0A84E /* RagabSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800519129F4621100F0A84E /* RagabSDK.swift */; };
 		F1B8A1B83180CD23046FA3F06200FA1F /* Pods-RagabNewSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D911479579210C04C91BCB353AA73D /* Pods-RagabNewSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		018FC6D521B7427E6D2A8E530FAC4188 /* Pods-RagabNewSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RagabNewSDK_Example"; path = Pods_RagabNewSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		024A3966E5EB44256856B5A460CB59F9 /* Pods-RagabNewSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		037E39917550E3A5931A45AB255A9573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		037E39917550E3A5931A45AB255A9573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		05F0FA76DD71FE4315F9629E36F3C896 /* Pods-RagabNewSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0829022BBD2919BE1BFE70A8C197CE32 /* Pods-RagabNewSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RagabNewSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		11B9E47745DAF9901383606C8948B909 /* Pods-RagabNewSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RagabNewSDK_Example-Info.plist"; sourceTree = "<group>"; };
@@ -54,19 +55,20 @@
 		68324BE19CDEDF3F3C41760E9E407666 /* Pods-RagabNewSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RagabNewSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		684CF116C0C9A970BDC004CF5D120CC0 /* Pods-RagabNewSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RagabNewSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RagabNewSDK; path = RagabNewSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RagabNewSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7921DAF2E238E321398FAE11559DEC91 /* Pods-RagabNewSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RagabNewSDK_Example.modulemap"; sourceTree = "<group>"; };
 		7D8327959A5630FCF341ACFA5E343089 /* Pods-RagabNewSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RagabNewSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		8A2369138BFE958CE70B3F291EF0CF52 /* RagabNewSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RagabNewSDK-dummy.m"; sourceTree = "<group>"; };
 		9329EA2B502715AB9F44026DEF4C5ECC /* RagabNewSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RagabNewSDK.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E86FA20AFA43938DFDCF2A4AC32889C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A1831E6E242079FDCAFC2D1D896A93C7 /* RagabNewSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RagabNewSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E86FA20AFA43938DFDCF2A4AC32889C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1831E6E242079FDCAFC2D1D896A93C7 /* RagabNewSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RagabNewSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A24A4C653AC404A1F2FBD435969F93FD /* RagabNewSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RagabNewSDK-umbrella.h"; sourceTree = "<group>"; };
 		A317411A762BAB78D3F1260CF265CE90 /* Pods-RagabNewSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RagabNewSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A569263468CC42BFD6A6671D398BA777 /* Pods-RagabNewSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RagabNewSDK_Tests"; path = Pods_RagabNewSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A768B26A7EA16E1F252B3BC88A259703 /* Pods-RagabNewSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5D911479579210C04C91BCB353AA73D /* Pods-RagabNewSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RagabNewSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		D800519129F4621100F0A84E /* RagabSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RagabSDK.swift; path = RagabNewSDK/Classes/RagabSDK.swift; sourceTree = "<group>"; };
 		E6AA51DFCC29011413F307948E38A948 /* Pods-RagabNewSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RagabNewSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA305610C5FA499ED11F02E011FA9921 /* RagabNewSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RagabNewSDK.debug.xcconfig; sourceTree = "<group>"; };
 		F59C16AE0DE338908A8CE35D16C4976E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RagabNewSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -132,7 +134,7 @@
 			children = (
 				018FC6D521B7427E6D2A8E530FAC4188 /* Pods-RagabNewSDK_Example */,
 				A569263468CC42BFD6A6671D398BA777 /* Pods-RagabNewSDK_Tests */,
-				734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK */,
+				734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +196,7 @@
 				F59C16AE0DE338908A8CE35D16C4976E /* ReplaceMe.swift */,
 				4789BFD2B23FC57B7DA786B6A6EBDA3A /* Pod */,
 				E539AD83FE88D29C1784B653A1B3425A /* Support Files */,
+				D800519129F4621100F0A84E /* RagabSDK.swift */,
 			);
 			name = RagabNewSDK;
 			path = ../..;
@@ -268,7 +271,7 @@
 			);
 			name = RagabNewSDK;
 			productName = RagabNewSDK;
-			productReference = 734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK */;
+			productReference = 734FD8800F92BABDB26A629BB2DED68B /* RagabNewSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C89BD60EA6D4603D4D096443B27437D8 /* Pods-RagabNewSDK_Tests */ = {
@@ -385,6 +388,7 @@
 			files = (
 				073E4B9CE9643CD39BE2CECB3B70B423 /* RagabNewSDK-dummy.m in Sources */,
 				C0283EF5E04E35FC4B7E76F2DCC27BC8 /* ReplaceMe.swift in Sources */,
+				D800519229F4621100F0A84E /* RagabSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RagabNewSDK/RagabNewSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RagabNewSDK/RagabNewSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RagabNewSDK/RagabNewSDK.modulemap";
 				PRODUCT_MODULE_NAME = RagabNewSDK;
@@ -526,8 +530,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -582,7 +585,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RagabNewSDK/RagabNewSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RagabNewSDK/RagabNewSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RagabNewSDK/RagabNewSDK.modulemap";
 				PRODUCT_MODULE_NAME = RagabNewSDK;
